@@ -19,11 +19,11 @@ ul{
 /*Encabezado*/
 
 header{
-    background:#7C8ECB ;
+    background:#A5C9CA ;
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #91EFDF 3px solid;
+    border-bottom: #0F3D3E 3px solid;
 }
 
 header a{
@@ -51,3 +51,33 @@ header nav{
     float: right;
     margin-top: 10px;
 }
+
+header .iluminado, header .current a{
+    color:#395B64 ;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #395B64;
+    font-weight: bold;
+}
+
+/*Imagen Inicio*/
+
+#imagenInicio{
+    min-height: 400px;
+    background: url('../img/inicio.jpg') no-repeat -4400px -2300px;
+    text-align: center;
+    color: #A5C9CA;
+}
+
+#imagenInicio h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#imagenInicio p{
+    font-size: 20px;
+}
+
