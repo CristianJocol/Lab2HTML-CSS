@@ -16,6 +16,15 @@ ul{
     padding: 0;
 }
 
+.boton1{
+    height: 35px;
+    background: #e8491d;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
 /*Encabezado*/
 
 header{
@@ -81,3 +90,52 @@ header a:hover{
     font-size: 20px;
 }
 
+/*Noticias*/
+
+#noticias{
+    padding: 15px;
+    color: #ffffff;
+    background: #0F3D3E;
+}
+
+#noticias h1{
+    float: left;
+}
+
+#noticias form{
+    float: right;
+    margin-top: 15px;
+}
+
+#noticias input[type="email"]{
+    padding: 5px;
+    height: 20px;
+    width: 250px;
+}
+
+/*Cajones*/
+
+#cajones{
+    margin-top: 20px;
+}
+
+#cajones .caja{
+    float: left;
+    margin-left: 10%;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#cajones .caja img{
+    width: 250px;
+    height: auto;
+}
+
+footer{
+    padding: 10px;
+    margin-top: 15px;
+    color: #ffffff;
+    background-color: #0F3D3E;
+    text-align: center;
+}
